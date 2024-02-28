@@ -32,7 +32,45 @@ Posteriormente, para obtener datos adicionales necesarios para calcular la pobla
 
 Por último, para la creación de un dashboard interactivo, se optó por utilizar Power BI, cuyo acceso se encuentra disponible [aquí]().
 
+## ETL
+En una primera etapa, se llevó a cabo un proceso de extracción, transformación y carga de los datos (ETL) para los conjuntos "HECHOS" y "VÍCTIMAS". Durante este proceso, se realizaron diversas tareas como la estandarización de los nombres de las variables, la evaluación de valores nulos y duplicados en los registros, y la eliminación de columnas redundantes o con una cantidad significativa de valores faltantes. Tras completar este proceso para ambos conjuntos de datos relacionados con "Homicidios", se procedió a fusionarlos en un único conjunto denominado "df_homicidios" y se guardó en un formato csv con el nombre "homicidios_cleaned", pueden encontrar la información [aqui]().  
 
+
+## EDA
+En esta fase, se llevó a cabo un análisis exploratorio datos (EDA) con el objetivo de identificar patrones que pudieran proporcionar información útil para que las autoridades locales tomen medidas orientadas a reducir la cantidad de víctimas fatales en los siniestros viales. Todos los detalles de este análisis se encuentran detallados en este [enlace]().
+
+## Análisis de los Datos
+
+En el análisis inicial, se examinó el perfil de la víctima, encontrando que el 77% son hombres y casi el 50% se encuentra en el rango de 25 a 44 años, siendo el 84% de ellos hombres. 
+
+En cuanto al rol de la víctima, el 48% eran conductores, distribuidos en un 77% de víctimas que se desplazaban en moto y 19% en auto. Respecto al medio de transporte al momento del hecho, el 42% de las víctimas son conductores de moto, y el 88% de ellos son hombres.
+
+Al analizar la responsabilidad en el hecho, el 29% de los casos involucraba a autos, mientras que el 75% eran responsabilidad de vehículos como autos, colectivos y camiones.
+
+En la búsqueda de patrones en la distribución espacial de los hechos, se destacó que en todas las comunas de CABA, las avenidas, vías anchas de al menos 13 metros, fueron un factor común en los accidentes. El 62% de las víctimas perdieron la vida en avenidas, y en el 82% de estos casos, ocurrió en el cruce de avenidas con otras calles. Este patrón se mantuvo consistente a lo largo de los años. En cuanto al rol de la víctima al momento del hecho, varió entre moto y peatón en distintas comunas.
+
+Posteriormente, se examinó la variable temporal para comprender la distribución de los homicidios en diferentes escalas temporales. La distribución anual de víctimas fatales mostró alrededor del 60% en los primeros tres años del conjunto de datos, con una disminución significativa en 2020 debido a las medidas de cuarentena por COVID-19. A lo largo del año, la variación mensual fue marcada, con un pico en diciembre, influenciado por la flexibilización de las medidas de cuarentena.
+
+Descendiendo en la escala temporal, se observó que el 70% de las víctimas perdieron la vida entre lunes y viernes, sugiriendo una relación con los desplazamientos diarios al trabajo. Sin embargo, en la distribución semanal, no se encontraron diferencias significativas entre los distintos días, indicando que la cantidad de víctimas los sábados y domingos es aproximadamente la misma para el conjunto de datos.
+
+Al analizar las franjas horarias, las mayores víctimas (12%) ocurrieron entre las 6 y las 8 de la mañana, asociadas posiblemente al horario de ingreso al trabajo. Sin embargo, se notó que el 55% de estas víctimas resultaron de incidentes ocurridos durante el fin de semana.
+
+## KPI
+
+A partir del análisis previo, se establecieron tres objetivos orientados a reducir la cantidad de víctimas fatales en siniestros viales, junto con la propuesta de tres indicadores clave de rendimiento (KPI).
+
+* Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior
+  
+** La tasa de homicidios en siniestros viales se define como el número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes durante un período específico. Para el año 2021, esta tasa fue de 1.77 en los primeros seis meses. El objetivo propuesto era reducir esto en un 10%, alcanzando 1.60. El KPI calculado para el segundo semestre de 2021 fue de 1.35, cumpliendo con la meta establecida.
+
+* Reducción del 7% en la cantidad de accidentes mortales de motociclistas en el último año en CABA, en comparación con el año anterior:
+
+Dado que el 42% de las víctimas mortales se desplazaban en moto, se propuso monitorear la cantidad de accidentes mortales de motociclistas. La fórmula utilizada considera la diferencia absoluta entre el número de accidentes mortales en el año actual y el año anterior. A pesar del objetivo de reducción del 7%, la cantidad de accidentes mortales de motociclistas para el año 2021 aumentó en un 64%, siendo 64.29.
+
+* Reducción del 10% en la tasa de homicidios en las avenidas en el último año en CABA, en comparación con el año anterior:
+
+Dado que el 62% de las víctimas mortales transitaban por avenidas, se propuso reducir la tasa de homicidios en estas vías en un 10%. La tasa calculada para el año 2020 fue de 1.68, y el objetivo para el 2021 fue 1.51. Sin embargo, la tasa real para el 2021 resultó en 1.97, superando la meta y representando un aumento respecto al año anterior.
+La siguiente imagen ilustra el rendimiento de los tres KPI propuestos.
 
 
 
