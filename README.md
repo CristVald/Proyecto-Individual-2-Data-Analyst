@@ -73,10 +73,17 @@ La tasa de homicidios en siniestros viales se define como el número de víctima
 
 Dado que el 42% de las víctimas mortales se desplazaban en moto, se propuso monitorear la cantidad de accidentes mortales de motociclistas. La fórmula utilizada considera la diferencia absoluta entre el número de accidentes mortales en el año actual (2021) y el año anterior(2020). A pesar del objetivo de reducción del 7%, la cantidad de accidentes mortales de motociclistas para el año 2021 aumentó en un 64%, siendo 64.29.
 
+<p align="center">
+  <img src="https://github.com/CristVald/Proyecto-Individual-2-Data-Analyst/blob/main/im%C3%A1genes/kpi_2.png" alt="Resultado del KPI 2">
+</p>
+
 * Reducir en un 10% la tasa de homicidios en las avenidas en el último año, en CABA, respecto al año anterior:
 
 Dado que el 62% de las víctimas mortales transitaban por avenidas, se propuso reducir la tasa de homicidios en estas vías en un 10%. La tasa calculada para el año 2020 fue de 1.68, y el objetivo para el 2021 fue 1.51(una reducción del 10%). Sin embargo, la tasa real para el 2021 resultó en 1.97, superando la meta y representando un aumento de la tasa de homicidios con respecto al año anterior.
 
+<p align="center">
+  <img src="https://github.com/CristVald/Proyecto-Individual-2-Data-Analyst/blob/main/im%C3%A1genes/kpi_3.png" alt="Resultado del KPI 3">
+</p>
 
 
 ## Conclusiones y recomendaciones
