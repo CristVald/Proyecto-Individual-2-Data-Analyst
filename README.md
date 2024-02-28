@@ -63,7 +63,7 @@ A partir del análisis previo, se establecieron tres objetivos orientados a redu
   
 La tasa de homicidios en siniestros viales se define como el número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes durante un período específico. Para el año 2021, esta tasa fue de 1.77 en los primeros seis meses. El objetivo propuesto era reducir esto en un 10%, alcanzando 1.60. El KPI calculado para el segundo semestre de 2021 fue de 1.35, cumpliendo con la meta establecida.
 
-![KPI 1](https://github.com/CristVald/Proyecto-Individual-2-Data-Analyst/blob/main/im%C3%A1genes/kpi_1.png)
+* ![KPI 1](https://github.com/CristVald/Proyecto-Individual-2-Data-Analyst/blob/main/im%C3%A1genes/kpi_1.png)
 
 
 * Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año, en CABA, respecto al año anterior
