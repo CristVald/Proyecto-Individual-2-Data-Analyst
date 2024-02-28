@@ -21,23 +21,23 @@ Para este proyecto, se utilizó la Base de Víctimas Fatales en Siniestros Viale
 * VICTIMAS: Cuenta con una fila por cada víctima de los incidentes, incluyendo variables como edad, sexo y modo de desplazamiento. Se establece una vinculación con la pestaña de HECHOS a través del id único de cada hecho.
 
 
-Este [documento]() proporciona definiciones detalladas de los datos utilizados y del desarrollo del proyecto. Además, los datos utilizados en el análisis están disponibles en este [enlace]().
+Este [documento](https://github.com/CristVald/Proyecto-Individual-2-Data-Analyst/blob/main/datasets/NOTAS_HOMICIDIOS_SINIESTRO_VIAL.pdf) proporciona definiciones detalladas de los datos utilizados y del desarrollo del proyecto. Además, los datos utilizados en el análisis están disponibles en este [enlace](https://github.com/CristVald/Proyecto-Individual-2-Data-Analyst/blob/main/datasets/homicidios.xlsx).
 
 
 ## Tecnologías utilizadas
 
 Para llevar a cabo este proyecto, se empleó Python y la biblioteca Pandas para llevar a cabo los procesos de extracción, transformación y carga de los datos, así como para realizar el análisis exploratorio de los mismos. Los resultados de este análisis se detallan en el siguiente apartado.
 
-Posteriormente, para obtener datos adicionales necesarios para calcular la población en el año 2021, se realizó web scraping utilizando la biblioteca BeautifulSoup. Todos los pormenores de este proceso se explican de manera exhaustiva en este [enlace]().
+Posteriormente, para obtener datos adicionales necesarios para calcular la población en el año 2021, se realizó webscraping utilizando la biblioteca BeautifulSoup. Todos los pormenores de este proceso se explican de manera exhaustiva en este [enlace](https://github.com/CristVald/Proyecto-Individual-2-Data-Analyst/blob/main/WEBSCRAPING.ipynb).
 
-Por último, para la creación de un dashboard interactivo, se optó por utilizar Power BI, cuyo acceso se encuentra disponible [aquí]().
+Por último, para la creación de un dashboard interactivo, se optó por utilizar Power BI, cuyo acceso se encuentra disponible [aquí](https://github.com/CristVald/Proyecto-Individual-2-Data-Analyst/blob/main/PI2.pbix).
 
 ## ETL
-En una primera etapa, se llevó a cabo un proceso de extracción, transformación y carga de los datos (ETL) para los conjuntos "HECHOS" y "VÍCTIMAS". Durante este proceso, se realizaron diversas tareas como la estandarización de los nombres de las variables, la evaluación de valores nulos y duplicados en los registros, y la eliminación de columnas redundantes o con una cantidad significativa de valores faltantes. Tras completar este proceso para ambos conjuntos de datos relacionados con "Homicidios", se procedió a fusionarlos en un único conjunto denominado "df_homicidios" y se guardó en un formato csv con el nombre "homicidios_cleaned", pueden encontrar la información [aqui]().  
+En una primera etapa, se llevó a cabo un proceso de extracción, transformación y carga de los datos (ETL) para los conjuntos "HECHOS" y "VÍCTIMAS". Durante este proceso, se realizaron diversas tareas como la estandarización de los nombres de las variables, la evaluación de valores nulos y duplicados en los registros, y la eliminación de columnas redundantes o con una cantidad significativa de valores faltantes. Tras completar este proceso para ambos conjuntos de datos relacionados con "Homicidios", se procedió a fusionarlos en un único conjunto denominado "df_homicidios" y se guardó en un formato csv con el nombre "homicidios_cleaned", pueden encontrar la información [aqui](https://github.com/CristVald/Proyecto-Individual-2-Data-Analyst/blob/main/ETL.ipynb).  
 
 
 ## EDA
-En esta fase, se llevó a cabo un análisis exploratorio datos (EDA) con el objetivo de identificar patrones que pudieran proporcionar información útil para que las autoridades locales tomen medidas orientadas a reducir la cantidad de víctimas fatales en los siniestros viales. Todos los detalles de este análisis se encuentran detallados en este [enlace]().
+En esta fase, se llevó a cabo un análisis exploratorio datos (EDA) con el objetivo de identificar patrones que pudieran proporcionar información útil para que las autoridades locales tomen medidas orientadas a reducir la cantidad de víctimas fatales en los siniestros viales. Todos los detalles de este análisis se encuentran detallados en este [enlace](https://github.com/CristVald/Proyecto-Individual-2-Data-Analyst/blob/main/EDA.ipynb).
 
 ## Análisis de los Datos
 
@@ -63,6 +63,9 @@ A partir del análisis previo, se establecieron tres objetivos orientados a redu
   
 La tasa de homicidios en siniestros viales se define como el número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes durante un período específico. Para el año 2021, esta tasa fue de 1.77 en los primeros seis meses. El objetivo propuesto era reducir esto en un 10%, alcanzando 1.60. El KPI calculado para el segundo semestre de 2021 fue de 1.35, cumpliendo con la meta establecida.
 
+![KPI 1]([URL_de_la_Imagen](https://github.com/CristVald/Proyecto-Individual-2-Data-Analyst/blob/main/im%C3%A1genes/kpi_1.png))
+
+
 * Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año, en CABA, respecto al año anterior
 
 Dado que el 42% de las víctimas mortales se desplazaban en moto, se propuso monitorear la cantidad de accidentes mortales de motociclistas. La fórmula utilizada considera la diferencia absoluta entre el número de accidentes mortales en el año actual (2021) y el año anterior(2020). A pesar del objetivo de reducción del 7%, la cantidad de accidentes mortales de motociclistas para el año 2021 aumentó en un 64%, siendo 64.29.
@@ -70,8 +73,6 @@ Dado que el 42% de las víctimas mortales se desplazaban en moto, se propuso mon
 * Reducir en un 10% la tasa de homicidios en las avenidas en el último año, en CABA, respecto al año anterior:
 
 Dado que el 62% de las víctimas mortales transitaban por avenidas, se propuso reducir la tasa de homicidios en estas vías en un 10%. La tasa calculada para el año 2020 fue de 1.68, y el objetivo para el 2021 fue 1.51(una reducción del 10%). Sin embargo, la tasa real para el 2021 resultó en 1.97, superando la meta y representando un aumento de la tasa de homicidios con respecto al año anterior.
-
-
 
 
 
