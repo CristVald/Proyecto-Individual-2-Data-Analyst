@@ -61,16 +61,37 @@ A partir del análisis previo, se establecieron tres objetivos orientados a redu
 
 * Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior
   
-** La tasa de homicidios en siniestros viales se define como el número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes durante un período específico. Para el año 2021, esta tasa fue de 1.77 en los primeros seis meses. El objetivo propuesto era reducir esto en un 10%, alcanzando 1.60. El KPI calculado para el segundo semestre de 2021 fue de 1.35, cumpliendo con la meta establecida.
+La tasa de homicidios en siniestros viales se define como el número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes durante un período específico. Para el año 2021, esta tasa fue de 1.77 en los primeros seis meses. El objetivo propuesto era reducir esto en un 10%, alcanzando 1.60. El KPI calculado para el segundo semestre de 2021 fue de 1.35, cumpliendo con la meta establecida.
 
-* Reducción del 7% en la cantidad de accidentes mortales de motociclistas en el último año en CABA, en comparación con el año anterior:
+* Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año, en CABA, respecto al año anterior
 
-Dado que el 42% de las víctimas mortales se desplazaban en moto, se propuso monitorear la cantidad de accidentes mortales de motociclistas. La fórmula utilizada considera la diferencia absoluta entre el número de accidentes mortales en el año actual y el año anterior. A pesar del objetivo de reducción del 7%, la cantidad de accidentes mortales de motociclistas para el año 2021 aumentó en un 64%, siendo 64.29.
+Dado que el 42% de las víctimas mortales se desplazaban en moto, se propuso monitorear la cantidad de accidentes mortales de motociclistas. La fórmula utilizada considera la diferencia absoluta entre el número de accidentes mortales en el año actual (2021) y el año anterior(2020). A pesar del objetivo de reducción del 7%, la cantidad de accidentes mortales de motociclistas para el año 2021 aumentó en un 64%, siendo 64.29.
 
-* Reducción del 10% en la tasa de homicidios en las avenidas en el último año en CABA, en comparación con el año anterior:
+* Reducir en un 10% la tasa de homicidios en las avenidas en el último año, en CABA, respecto al año anterior:
 
-Dado que el 62% de las víctimas mortales transitaban por avenidas, se propuso reducir la tasa de homicidios en estas vías en un 10%. La tasa calculada para el año 2020 fue de 1.68, y el objetivo para el 2021 fue 1.51. Sin embargo, la tasa real para el 2021 resultó en 1.97, superando la meta y representando un aumento respecto al año anterior.
-La siguiente imagen ilustra el rendimiento de los tres KPI propuestos.
+Dado que el 62% de las víctimas mortales transitaban por avenidas, se propuso reducir la tasa de homicidios en estas vías en un 10%. La tasa calculada para el año 2020 fue de 1.68, y el objetivo para el 2021 fue 1.51(una reducción del 10%). Sin embargo, la tasa real para el 2021 resultó en 1.97, superando la meta y representando un aumento de la tasa de homicidios con respecto al año anterior.
+
+
+
+
+
+## Conclusiones y recomendaciones
+
+En cuanto al perfil de las víctimas, el 77% eran de sexo masculino, y casi la mitad se encontraba en el rango de edad de 25 a 44 años. Los motociclistas representaron el 42% de los casos. Las avenidas de CABA fueron escenario del 62% de los homicidios, siendo el 82% de estos en cruces con otras calles. Además, el 75% de los eventos ocurrieron en intersecciones viales.
+
+Durante el período comprendido entre 2016 y 2021, se documentaron 717 casos de víctimas fatales en accidentes de tránsito. La mayoría de estos incidentes, un 70%, tuvieron lugar durante la semana, y aproximadamente el 12% ocurrió entre las 6 y las 8 de la mañana durante los fines de semana. Diciembre destacó como el mes con el mayor número de fallecimientos en el análisis.
+
+A pesar de cumplir con el objetivo de reducir la tasa de homicidios en siniestros viales en el segundo semestre de 2021, no se lograron alcanzar las metas propuestas para disminuir la cantidad de accidentes mortales en motociclistas ni en avenidas durante el año 2021 en comparación con el año 2020.
+
+En vista de lo anterior, se formulan las siguientes recomendaciones:
+
+* Mantener la vigilancia de los objetivos establecidos mediante campañas específicas, con un enfoque especial en conductores de motocicletas y usuarios de las avenidas.
+
+* Reforzar las campañas de seguridad vial, especialmente desde los días viernes hasta los lunes, con una intensificación particular durante el mes de diciembre.
+
+* Concentrar las campañas de concienciación en prácticas de conducción segura en avenidas y cruces de calles.
+
+* Orientar las campañas de seguridad hacia el sexo masculino, enfocándose especialmente en la conducción de motocicletas, dirigidas a la franja etaria de 25 a 44 años.
 
 
 
