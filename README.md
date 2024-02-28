@@ -17,11 +17,22 @@ Según el censo poblacional del año 2022, la población de la Ciudad Autónoma 
 
 Para este proyecto, se utilizó la Base de Víctimas Fatales en Siniestros Viales, la cual está en formato Excel y consta de dos pestañas de datos:
 
-* HECHOS: Contiene una fila por incidente con un identificador único y variables temporales, espaciales y de participantes asociadas a cada suceso.
-* VICTIMAS: Cuenta con una fila por cada víctima de los incidentes, incluyendo variables como edad, sexo y modo de desplazamiento. Se establece una vinculación con la pestaña de HECHOS a través del identificador único de cada incidente.
+* HECHOS: Contiene una fila por incidente con un id único y variables temporales, espaciales y de participantes asociadas a cada suceso.
+* VICTIMAS: Cuenta con una fila por cada víctima de los incidentes, incluyendo variables como edad, sexo y modo de desplazamiento. Se establece una vinculación con la pestaña de HECHOS a través del id único de cada hecho.
 
 
-Este documento proporciona definiciones detalladas de los datos utilizados y del desarrollo del proyecto. Además, los datos utilizados en el análisis están disponibles en este enlace.
+Este [documento]() proporciona definiciones detalladas de los datos utilizados y del desarrollo del proyecto. Además, los datos utilizados en el análisis están disponibles en este [enlace]().
+
+
+## Tecnologías utilizadas
+
+Para llevar a cabo este proyecto, se empleó Python y la biblioteca Pandas para llevar a cabo los procesos de extracción, transformación y carga de los datos, así como para realizar el análisis exploratorio de los mismos. Los resultados de este análisis se detallan en el siguiente apartado.
+
+Posteriormente, para obtener datos adicionales necesarios para calcular la población en el año 2021, se realizó web scraping utilizando la biblioteca BeautifulSoup. Todos los pormenores de este proceso se explican de manera exhaustiva en este [enlace]().
+
+Por último, para la creación de un dashboard interactivo, se optó por utilizar Power BI, cuyo acceso se encuentra disponible [aquí]().
+
+
 
 
 
